@@ -16,6 +16,8 @@ spec:
   values:
     alertmanager:
       enabled: false
+    nodeExporter:
+      enabled: false
   #   image:
   #     repository: bitnami/mongodb
   #     tag: 4.0.13
