@@ -16,7 +16,7 @@ spec:
   values:
     alertmanager:
       enabled: false
-    nodeExporter:
-      enabled: false
+    # nodeExporter:
+    #   enabled: false
     pushgateway:
       enabled: false
