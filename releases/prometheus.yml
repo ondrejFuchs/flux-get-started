@@ -18,7 +18,3 @@ spec:
       enabled: false
     nodeExporter:
       hostRootfs: false
-      # extraArgs:
-      #   hostRootFsMount: false
-    pushgateway:
-      enabled: false
