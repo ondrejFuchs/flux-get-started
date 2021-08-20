@@ -20,6 +20,3 @@ spec:
       enabled: false
     pushgateway:
       enabled: false
-    server:
-      extraArgs:
-        storage.local.retention: 720h
