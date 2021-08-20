@@ -17,7 +17,6 @@ spec:
     alertmanager:
       enabled: false
     nodeExporter:
-      extraArgs:
-        hostRootFsMount: false
-    # pushgateway:
-    #   enabled: false
+      hostRootFsMount: false
+    pushgateway:
+      enabled: false
