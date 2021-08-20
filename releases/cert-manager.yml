@@ -1,18 +1,18 @@
-apiVersion: helm.fluxcd.io/v1
-kind: HelmRelease
-metadata:
-  name: cert-manager
-  namespace: cert-manager
-spec:
-  releaseName: cert-manager
-  timeout: 300
-  resetValues: false
-  wait: true
-  forceUpgrade: false
-  chart:
-    repository: https://charts.jetstack.io
-    name: cert-manager
-    version: v0.14.0
-  values:
-    ingressShim:
-      defaultIssuerKind: ClusterIssuer
+# apiVersion: helm.fluxcd.io/v1
+# kind: HelmRelease
+# metadata:
+#   name: cert-manager
+#   namespace: cert-manager
+# spec:
+#   releaseName: cert-manager
+#   timeout: 300
+#   resetValues: false
+#   wait: true
+#   forceUpgrade: false
+#   chart:
+#     repository: https://charts.jetstack.io
+#     name: cert-manager
+#     version: v0.14.0
+#   values:
+#     ingressShim:
+#       defaultIssuerKind: ClusterIssuer
