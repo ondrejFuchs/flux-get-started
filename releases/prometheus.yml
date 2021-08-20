@@ -35,7 +35,7 @@ metadata:
 spec:
   rules:
   # Use the host you used in your kubernetes Ingress Configurations
-  - host: prometheus.local
+  - host: prometheus.local.com
     http:
       paths:
       - backend:
